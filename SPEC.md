@@ -311,7 +311,7 @@ Renew to keep your streak going. Reply here to renew.
 ### Week 1 — Core
 - [ ] DB schema + seed script
 - [ ] Phone OTP login
-- [ ] Dashboard screen (port `prototype/index.html` to React)
+- [ ] Dashboard screen (port `index.html` to React)
 - [ ] Add member / bulk paste import
 - [ ] `wa.me` send + log `last_reminded`
 

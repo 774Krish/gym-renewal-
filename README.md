@@ -1,5 +1,7 @@
 # Renewal Radar — micro-SaaS for gyms
 
+**[▶ Open the live demo](https://774krish.github.io/gym-renewal-/)**
+
 A one-screen tool that shows a gym owner **who is about to expire, who already lapsed, and how much money is sitting in those two lists** — then sends the WhatsApp reminder in one tap.
 
 Not gym management software. Not attendance. Not payroll. One job: **stop silent non-renewals.**
@@ -10,7 +12,7 @@ Not gym management software. Not attendance. Not payroll. One job: **stop silent
 
 > "Recover two lapsed members a month and this app pays for itself."
 
-A gym with 150 members charging ₹1,200/month has roughly **₹1.8 lakh of membership revenue expiring every month**. Every silently-lost member is ₹14,400/year gone. The owner currently tracks this in a paper register and hopes.
+A gym with 150 members charging £39/month has roughly **£5,850 of membership revenue expiring every month**. Every silently-lost member is £468/year gone. The owner currently tracks this in a paper register and hopes.
 
 ---
 
@@ -18,7 +20,7 @@ A gym with 150 members charging ₹1,200/month has roughly **₹1.8 lakh of memb
 
 | File | Purpose |
 |---|---|
-| `prototype/index.html` | **Working demo.** Open it in a browser. Click around. Show it to gym owners while you ask questions. No install, no internet needed. |
+| `index.html` | **Working demo.** Open it in a browser. Click around. Show it to gym owners while you ask questions. No install, no internet needed. |
 | `VALIDATION.md` | The printable question sheet for visiting 5 gyms + decision rules. **Do this before writing any real code.** |
 | `SPEC.md` | Full product spec: screens, data model, WhatsApp options, pricing, build plan. |
 
@@ -26,10 +28,10 @@ A gym with 150 members charging ₹1,200/month has roughly **₹1.8 lakh of memb
 
 ## Open the demo
 
-Double-click `prototype/index.html`, or from PowerShell:
+Double-click `index.html`, or from PowerShell:
 
 ```powershell
-Start-Process "c:\my portfolio\to do\gym-renewal-radar\prototype\index.html"
+Start-Process "c:\my portfolio\to do\gym-renewal-radar\index.html"
 ```
 
 It loads 12 sample members, so it looks like a real gym on day one. Data is saved in your browser; "Reset demo data" restores the samples.

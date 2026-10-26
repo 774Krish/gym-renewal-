@@ -4,7 +4,7 @@
 
 - Each conversation: **12–15 minutes**
 - Best time to visit: **11am–1pm** (gyms are quiet) or **4–6pm**
-- Bring: this sheet, a pen, your phone with `prototype/index.html` open
+- Bring: this sheet, a pen, your phone with `index.html` open
 - Target: 5 gyms. 3 local independents, 1 mid-size (100+ members), 1 small (<50 members)
 
 ---
@@ -102,7 +102,7 @@ Follow-ups:
 
 ## The demo (only after all 5 questions)
 
-Now show `prototype/index.html` on your phone. **Do not explain the features.** Say only:
+Now show `index.html` on your phone. **Do not explain the features.** Say only:
 
 > "This is a rough version. This red number is money sitting in expired memberships right now."
 
