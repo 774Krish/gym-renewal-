@@ -1,0 +1,54 @@
+# ---- OS noise ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# ---- editors ----
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- scratch / preview files ----
+# temporary screenshots taken while testing the prototype
+_preview-*.png
+_*.png
+*.local
+
+# ---- logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- secrets (never commit these) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- dependencies & builds (for the Next.js version in SPEC.md) ----
+node_modules/
+.next/
+out/
+dist/
+build/
+.cache/
+.turbo/
+coverage/
+
+# ---- local databases ----
+*.sqlite
+*.sqlite3
+*.db
+
+# ---- deploy platform metadata ----
+.vercel/
+.netlify/
